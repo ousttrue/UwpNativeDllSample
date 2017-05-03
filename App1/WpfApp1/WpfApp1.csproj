@@ -100,10 +100,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="libpng16.dll">
+    <Content Include="..\App1\libpng16.dll">
+      <Link>libpng16.dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="zlib.dll">
+    <Content Include="..\App1\zlib.dll">
+      <Link>zlib.dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
